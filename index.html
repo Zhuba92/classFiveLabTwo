@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Totals</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="code.js"></script>
+
+</head>
+<body>
+<h1>Select your drinks</h1>
+    <table>
+        <tr>
+            <td>
+                <label for="pepsi">How many of Pepsi would you like? $2.99 each</label>
+                <input type="text" name="soda" id="pepsi" data-price="2.99" value="0">
+            </td>
+            <td>
+                <p id="pepsiOutput"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="coke">How many of Coke would you like? $2.99 each</label>
+                <input type="text" name="soda" id="coke" data-price="2.99" value="0">
+            </td>
+            <td>
+                <p id="cokeOutput"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p id="output"></p>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
